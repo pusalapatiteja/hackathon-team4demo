@@ -53,4 +53,4 @@ jobs:
           app-name: 'hackathon-team4demo'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D6B9D4DD98CD45669C7AB3114A0EF626 }}
-          package: .
+          package: ./dist/hackathon-team4demo
